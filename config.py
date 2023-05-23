@@ -1,4 +1,4 @@
-TOKEN = "5797289851:AAHcLudwsc77IjgfHdo3PXpcdt5wfPhSPfY"
+TOKEN = "место для токена вашего бота"
 
 keys = {
     'рубль': 'RUB',
