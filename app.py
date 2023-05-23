@@ -36,7 +36,7 @@ def convert(message: telebot.types.Message):
         values = message.text.lower().split(' ')
 
         if len(values) != 3:
-            raise APIException('Введите три параметра, либо вызовите справку /help.')
+            raise APIException('Введите три параметра, либо вызовите справку /help.'
 
         quote, base, amount = values
         total_base = CurrencyConverter.convert(quote, base, amount)
