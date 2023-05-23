@@ -1,6 +1,6 @@
 import requests
 import json
-from config import key
+from config import keys
 
 
 class APIException(Exception):
